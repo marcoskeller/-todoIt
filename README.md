@@ -1,4 +1,4 @@
-# -todoIt
+# todoIt
 
 Este é um produto chamado TodoIt que permite os usuários controlarem as suas tarefas diárias. 
 
@@ -37,9 +37,11 @@ DJango
 4º - Realize a criação e execução do ambiente de Migração usando os comandos abaixo
 
 -->python mananage.py makemigrations
+
 O comando acima irá obter a estrutura das classes definidas no arquivo models.py e criará os arquivos de migração de cada classe.
 
 --->python manage.py migrate
+
 Após criar os arquivos que definem a estrutura de cada entidade no banco de dados, precisamos executar estas migrações. Para isso, utilizamos o comando acima
 
 ---->
@@ -47,7 +49,6 @@ Após criar os arquivos que definem a estrutura de cada entidade no banco de dad
 5º - Executar Servidor de Desenvolvimento
 
 -->python manage.py runserver
-
 
 =>Agora antes de prosseguir é um passo muito importante
 
